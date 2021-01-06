@@ -1,8 +1,8 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 import ctypes
 
-testlib = ctypes.CDLL('liblib.so')
+testlib = ctypes.CDLL('./liblib.so')
 
 testlib.f0_void()
 
