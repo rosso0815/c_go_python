@@ -17,4 +17,4 @@ clean:
 	rm -rf *.o
 	rm -rf *.so
 	rm -rf cmd01
-	go clean
+	# go clean
